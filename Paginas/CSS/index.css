@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: #F8F8F8;
+}
+#banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+#banner ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 4%;
+}
+#banner ul li{
+    width: 40%;
+    justify-content: center;
+}
+#banner ul li h2{
+    text-align: center;
+}
+#banner ul li p{
+    text-align: justify;
+}
+#banner img{
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 50%;
+}
+#banner ul li p i a{
+    text-decoration: none;
+    color: #696868;
+    transition: all 0.7s;
+}
+#banner ul li p i a:hover{
+    font-size: 105%;
+    transition: all 0.7s;
+    border-bottom: solid 1px #696868;
+}
+.hr{
+    width: 80%;
+}
