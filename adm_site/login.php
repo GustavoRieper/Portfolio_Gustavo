@@ -45,7 +45,7 @@ $_SESSION['login'] = $_SESSION['login'] + 0;
                         
                         $senha = $_SESSION['login'];
                         if($senha > 0){
-                            echo('<h3>Senha Incorreta</h3>');
+                            echo('<h3>Usuário ou Senha Incorreta</h3>');
                         }else{
                             
                         }
@@ -54,9 +54,7 @@ $_SESSION['login'] = $_SESSION['login'] + 0;
                     <input type="submit" value="Logar" name="logar" id="Logar">    
                 
             </form> 
-            <a id="registrar" href="opc_registro.php">
-                <input type="submit" value="Registrar" id="Logar" >
-            </a>
+
             
 <!--
             <form action="registro.php" id="registro">

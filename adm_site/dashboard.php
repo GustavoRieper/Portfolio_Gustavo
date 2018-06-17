@@ -32,6 +32,9 @@
         <a href="logout.php">
             <h2>Sair</h2>
         </a>
+        <a href="projetos.php">
+            <h2>Inserir Projetos</h2>
+        </a>
     </body>
 
 </html>
