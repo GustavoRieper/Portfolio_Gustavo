@@ -25,16 +25,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="../Paginas/css_adm/dashboard.css">
         <title>Dashboard</title>
     </head>
     
     <body>
-        <a href="logout.php">
-            <h2>Sair</h2>
-        </a>
-        <a href="projetos.php">
-            <h2>Inserir Projetos</h2>
-        </a>
+        <?php include 'menu.php'; ?>
+        <div class="content">
+        </div>
     </body>
 
 </html>

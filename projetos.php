@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfólio - Gustavo Rieper</title>        
+        <title>Portfólio - Gustavo Rieper</title>
+        <meta charset="utf8">
         <link rel="stylesheet" type="text/css" href="Paginas/CSS/index.css";>
         <link rel="stylesheet" type="text/css" href="Paginas/CSS/projetos.css";>
         <link rel="shortcut icon" type="image/png" href="IMG/logo_black.png"/>
@@ -27,7 +28,7 @@
         <ul id="movieposters">
             <?php
                 mysqli_set_charset($conexao,'utf8'); 
-                $sql = "SELECT * FROM projetos"; 
+                $sql = "SELECT * FROM `projetos` ORDER BY data DESC LIMIT 3"; 
                 $resultado = mysqli_query($conexao,$sql);
                 $numero_linhas = mysqli_num_rows($resultado);
                 while ($linha = mysqli_fetch_array($resultado)){
