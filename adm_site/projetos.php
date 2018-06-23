@@ -27,7 +27,7 @@
                 <form method="post" action="insere_projetos.php">
                     <input type="text" name="nome" placeholder="Nome do Projeto" required autofocus>
                     <br>                
-                    <textarea required name="txt_postagem" maxlength="180" onkeyup="limite_textarea(this.value)" id="texto"></textarea><br>
+                    <textarea required name="descricao" maxlength="180" onkeyup="limite_textarea(this.value)" id="texto"></textarea><br>
                     <span id="cont">300 </span> <span id="restante">Restantes</span> <br>
                     <br>
                     <input type="text" name="imagem" placeholder="link da Imagem" required>
