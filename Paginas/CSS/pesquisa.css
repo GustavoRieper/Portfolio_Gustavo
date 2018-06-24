@@ -1,0 +1,66 @@
+body{
+    background-color: #F8F8F8;
+}
+#pesq{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+hr{
+    width: 90%;
+}
+.box_pesquisa{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_pesquisa a{
+    text-decoration: none;
+    color: #000;
+}
+.box{
+    width: 30%;
+    height: 400px;
+    background-color: #ff8c0078;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.box:hover{
+    width: 32%;
+    height: 420px;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 10px #9e9e9e;    
+    background-color: #ff8c00c9;
+}
+.box img{
+    margin-left: 25% !important;
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box h2{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.box p{
+    width: 80%;
+    margin-left: 10% !important;
+    font-size: 15px;
+    text-align: justify;
+    margin: -10px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}

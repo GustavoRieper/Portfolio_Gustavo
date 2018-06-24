@@ -4,6 +4,7 @@
     
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
         .menu{
             width: 100%;
             display: flex;
@@ -56,8 +57,8 @@
         <a href="home.php">
             <li id="index"><i class="fas fa-home"></i><br>Início</li>
         </a>
-        <a href="artigos.php">
-            <li id="artigos"><i class="fas fa-book"></i><br>Artigos</li>
+        <a href="pesquisa.php">
+            <li id="pesquisa"><i class="fas fa-book"></i><br>Pesquisas</li>
         </a>
         <a href="projetos.php">
             <li id="projetos"><i class="fas fa-chart-pie"></i><br>Projetos</li>
