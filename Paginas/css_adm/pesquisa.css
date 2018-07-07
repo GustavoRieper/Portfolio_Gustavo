@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    background-color: #f8f8f8;
+}
+.content{
+    margin-left: 90px;
+}
+.painel{
+    margin-top: 50px;
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.painel input[type=text]{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #CCC;
+    color: #000;
+    padding: 5px;
+    margin: 10px;
+}
+.painel textarea{
+    width: 500px;
+    height: 100px;
+}
+.painel input[type=date]{
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: darkgrey;
+    margin: 10px;
+}
+.painel input[type=submit]{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: dodgerblue;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.painel input[type=submit]:hover{
+    background-color: #5fa8ef;
+    transition: all 0.5s;
+}
+
+.painel input[type=file]{
+    width: 300px;
+}
+.painel input[type=file]:hover{
+    background-color: #5fa8ef;
+    transition: all 0.5s;
+}
+
+.painel input[type=reset]{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: dodgerblue;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.painel input[type=reset]:hover{
+    background-color: #5fa8ef;
+    transition: all 0.5s;
+}

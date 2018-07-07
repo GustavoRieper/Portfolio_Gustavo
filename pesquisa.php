@@ -37,12 +37,11 @@
                     $link       = $linha["link"];
                     echo("<div class='box'>");
                         echo("<a href='http://"); echo($link); echo("' target='_blank'/>");
-                          echo("<img src='"); echo($imagem); echo("'"); echo("alt='"); echo($titulo); echo("'/>");
+                          echo("<img src='IMG/pesquisa/thumb/"); echo($imagem); echo("'"); echo("alt='"); echo($titulo); echo("'/>");
                                  echo("<h2>"); echo($titulo); echo("</h2>");
                                  echo("<p>"); echo($descricao); echo("</p>");
                         echo("</a>");
                       echo("</div>");
-
                 };
             ?>
 
