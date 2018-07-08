@@ -66,7 +66,7 @@
         <a href="">
             <li id="infescola"><i class="fas fa-chalkboard-teacher"></i><br>Inf. na Escola</li>
         </a>
-        <a href="">
+        <a href="contato.php">
             <li id="contato"><i class="fas fa-phone"></i><br>Contato</li>
         </a>
     </ul>
