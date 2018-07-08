@@ -3,6 +3,7 @@
     <head>
         <title>Admin - Pesquisa</title>
         <link rel="stylesheet" type="text/css" href="../Paginas/css_adm/pesquisa.css">
+
         <meta charset="utf-8">
         <script>
             function limite_textarea(valor) {
@@ -26,6 +27,7 @@
                 <h2>Publicar Pesquisa</h2>
 
                 <form method="post" action="insere_pesquisa.php" enctype="multipart/form-data">
+                    <h3>Inserir Card</h3>
                     <input type="text" name="titulo" placeholder="Título da Pesquisa" required autofocus>
                     <br>                
                     <textarea required name="descricao" maxlength="180" onkeyup="limite_textarea(this.value)" id="texto"></textarea><br>
@@ -37,9 +39,21 @@
                     <br>
                     <input type="file" name="imagem" id="imagem" required>
                     <br> <br> <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <h3>Pesquisa</h3>
+                    <br>
+                    <?php include 'insere_texto.php'; ?>
+                    <br>
+                    <br>
+                    
+                    <span>Banner</span><input type="file" name="imagem" id="imagem" required>
+                    <br> <br> <br>
                     <input type="submit" name="cadastrar" value="Enviar">
                     <input type="reset" value="Limpar">
-                </form>            
+                </form> 
             </div>
         </div>
     </body>

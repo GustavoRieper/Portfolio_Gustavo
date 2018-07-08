@@ -1,5 +1,6 @@
 body{
     background-color: #F8F8F8;
+    margin: 0px;
 }
 #pesq{
     font-family: 'Montserrat', sans-serif;
@@ -10,8 +11,8 @@ hr{
     width: 90%;
 }
 .box_pesquisa{
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    margin-left: 0%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -21,4 +22,15 @@ hr{
 .box_pesquisa a{
     text-decoration: none;
     color: #000;
+}
+
+#banner img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.content_pesquisa{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
 }

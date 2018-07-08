@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body{
     background-color: #f8f8f8;
 }
 .content{
-    margin-left: 90px;
+    margin-left: 0px;
+}
+form{
+    border: solid 2px #848484;
+    padding: 10px;
 }
 .painel{
     margin-top: 50px;
@@ -11,9 +16,14 @@ body{
 }
 h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
+    margin-left: 90px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 30px;
 }
 .painel input[type=text]{
     width: 300px;
@@ -29,6 +39,9 @@ h2{
 .painel textarea{
     width: 500px;
     height: 100px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 15px;
 }
 .painel input[type=date]{
     width: 150px;
@@ -55,7 +68,9 @@ h2{
 }
 
 .painel input[type=file]{
-    width: 300px;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
 }
 .painel input[type=file]:hover{
     background-color: #5fa8ef;
@@ -75,4 +90,11 @@ h2{
 .painel input[type=reset]:hover{
     background-color: #5fa8ef;
     transition: all 0.5s;
+}
+#summernote{
+    width: 50%!important;
+}
+span{
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 15px;
 }
